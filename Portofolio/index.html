@@ -1,0 +1,218 @@
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatuble" content="IE-edge" />
+  <meta name="viewport" content="width-device-width,initial-scale=1.0" />
+
+  <title>AGIF</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <!--NAVBAR-->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" data-bs-theme="dark">
+    <div class="container">
+      <!-- Logo -->
+      <a class="navbar-brand" href="#">
+        <img src="logo.png" width="100"></a>
+      <!-- Toggle -->
+      <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Side Bar -->
+      <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+        aria-labelledby="offcanvasNavbarLabel">
+        <!-- SideBAr Header -->
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Where you go?</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <!-- Side bar Body -->
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item mx-2">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link active" href="#About">About</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link active" href="#Portofolio">Portofolio</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link active" href="#">Skill</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link active" href="#Contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- NAVBAR END-->
+
+  <!-- HOME -->
+  <div class="home" id="Home">
+    <div class="container text-start">
+      <div class="row align-items-center">
+        <div class="col-sm-6">
+          <small>Assalamualaikum !</small>
+          <h1>I'm<span class="container text-success">Agifian Alvin</span></h1>
+          <p></p>
+          <button type="button" class="btn btn-outline-success" style="--bs-btn-padding-y: .25rem; 
+          --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;" id="buttonshake"><a href="#About" class="text-success"
+              style="text-decoration: none;">About</a></button> 
+              
+        </div>
+        <div class="col-sm-6">
+          <img src="YUJI.png" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- HOME END -->
+
+  <!-- About -->
+  <div class="About" id="About">
+    <div class="judul-text">
+      <h1 class="container text-center" style="padding-bottom: 30px;">
+        About Myself</h1>
+    </div>
+    <div class="container text-start">
+      <div class="row align-items-center">
+        <div class="col-sm-6">
+          <img src="Asset-web-about.png" class="img-fluid">
+        </div>
+        <div class="col-sm-6">
+          <h3>Myself?</h3>
+          <p>I'm Agifian, SMK IPIEMS Student. And this my one of the webs I created XD</p>
+          <button type="button" class="btn btn-outline-light" style="--bs-btn-padding-y: .25rem; 
+          --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem; "><a href="#About" class="text-light"
+              style="text-decoration: none;">About</a></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- About End -->
+
+  <!-- Portofolio -->
+  <div class="Portofolio" id="Portofolio">
+    <div class="judul-text">
+      <!-- <h4 class="container text-center" style="padding-top: 30px;">
+        Portofolio</h4> -->
+      <h1 class="container text-center" style="padding-bottom: 30px;">
+        My Project</h1>
+    </div>
+    <!-- card -->
+    <div class="cards">
+      <div class="row justify-content-center">
+
+        <div class="card text-bg-light" style="width: 18rem;">
+          <img src="TAHU MERCON FARUK.jpg" class="card-img">
+          <div class="card-img-overlay text-end">
+            <h1 class="card-title">Design</h1>
+            <p class="card-text"><small>On this card contains about, some designs
+               that I have made and that I like xD.
+            </small></p>
+            <button type="button" class="dropdown btn btn-outline-light" style="--bs-btn-padding-y: .25rem; 
+              --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;"><a href="design.html"
+                style="text-decoration: none; color: white;">Load More</a></button>
+
+          </div>
+        </div>
+
+        <div class="card text-bg-light" style="width: 18rem;">
+          <img src="randomgirl1.jpg" class="card-img">
+          <div class="card-img-overlay text-center">
+            <h1 class="card-title">Artwork</h1>
+            <p class="card-text"><small>On this card contains about, some artwork
+               that I have made and that I like xD.</small></p>
+            <button type="button" class="btn btn-outline-light" style="--bs-btn-padding-y: .25rem; 
+              --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;"><a href="artwork.html"
+                style="text-decoration: none; color: white">Load More</a></button>
+          </div>
+        </div>
+
+        <div class="card text-bg-light" style="width: 18rem;">
+          <img src="game.png" class="card-img">
+          <div class="card-img-overlay text-start">
+            <h1 class="card-title">Game</h1>
+            <p class="card-text"><small>On this card contains about, games
+               that I have made xD.</small></p>
+            <button type="button" class="btn btn-outline-light" style="--bs-btn-padding-y: .25rem; 
+              --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;"><a href="#About"
+                style="text-decoration: none; color: white">Load More</a></button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <!-- Portofolio End -->
+
+  <!-- CONTACT -->
+  <div class="Contact m-4" id="Contact">
+    <div class="judul-text">
+      <h1 class="container text-center" style="padding-bottom: 30px;">
+        My Contact</h1>
+    </div>
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="mori.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="mori.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="mori.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <!-- CONTACT End-->
+
+  <!-- Footer -->
+  <footer>
+    <small>Copyright © 2023 Vinny. All Rights Reserved</small>
+    <small><a href="agifianalvin@gmail.com" style="text-decoration: none;">agifianalvin@gmail.com</a></small>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

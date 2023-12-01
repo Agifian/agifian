@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home {
+    padding: 100px 10px 100px 10px;
+    color: white;
+    background-image: url(ae863.png);
+    background-position: center;
+    background-size: cover;
+}
+
+nav{
+    background-image: url(bg.jpg);
+    background-blend-mode: normal;
+    position: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(0, 0, 0);
+}
+.navbar-brand {
+    font-family: montserrat;
+    font-weight: bold;
+}
+.navbar-nav{
+    list-style-type: none;
+    font-family: montserrat;
+}
+
+.cards{
+    padding: 5px;
+    align-items: center;
+}
+
+.card{
+    padding: 10px 0px 10px 0px;
+    width: 280px;
+    height: 360px;
+    padding: 2rem 1 rem;
+    margin: 10px;
+    background: #fff;
+    position: relative;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.763);
+    transition: 0.5s ease-in-out;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(0, 0, 0);
+    color: rgba(255, 255, 255, 0.516);
+
+  }
+
+@media(max-width: 991px){
+    .sidebar{
+        background-color: rgba(78, 78, 78, 0.15);
+        backdrop-filter: blur(10px);
+    }
+}
